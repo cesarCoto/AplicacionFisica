@@ -4,4 +4,8 @@
     <color name="colorPrimaryDark">#ec2e7d32</color>
     <color name="colorAccent">#59cf5f</color>
     <color name="bag_color">#d9d9d9</color>
+    <color name="color_tab_exam_conversiones">#2ab1fa</color>
+    <color name="color_text_tab_exam_conversiones">#2398d7</color>
+    <color name="text_color_tab">#000</color>
+    <color name="button_calificar">#fff</color>
 </resources>

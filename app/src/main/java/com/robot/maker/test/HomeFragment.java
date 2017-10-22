@@ -73,14 +73,17 @@ public class HomeFragment extends Fragment {
         imag.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getActivity(),ConversionesActivity.class);
-                startActivity(i);
+                conversiones();
             }
         });
 
         return  view;
     }
 
+    private void conversiones(){
+        Intent i = new Intent(getActivity(),ConversionesActivity.class);
+        startActivity(i);
+    }
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {

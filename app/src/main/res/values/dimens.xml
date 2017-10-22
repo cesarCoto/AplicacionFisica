@@ -8,4 +8,5 @@
     <dimen name="paddin_fragment">8dp</dimen>
     <dimen name="dimen_margin_imgbutton">2dp</dimen>
     <dimen name="dimen_padding_text_card">4dp</dimen>
+    <dimen name="dimen_padding_activities">16dp</dimen>
 </resources>

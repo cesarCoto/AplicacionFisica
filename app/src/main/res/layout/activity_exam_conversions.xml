@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen_padding_activities"
+    android:background="@color/bag_color"
+    tools:context="com.robot.maker.test.ExamConversionsActivity"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView_instruccion_examenConversion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instruccion"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textview_preg1_conversiones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/preg1_conversiones" />
+
+            <RadioGroup
+                android:layout_marginLeft="@dimen/paddin_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonRes1Preg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/res1_preg1_conversiones" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonRes2Preg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/res2_preg1_conversiones" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonRes3Preg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/res3_preg1_conversiones" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tview_preg2_conversiones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/preg2_conversiones" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/paddin_fragment">
+
+                <RadioButton
+                    android:id="@+id/radioButtonRes1Preg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/res2_preg2_conversiones" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonRes2Preg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/res3_preg2_conversiones" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonRes3Preg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/res1_preg2_conversiones" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:backgroundTint="@color/button_calificar"
+                android:text="@string/text_button_calificar"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
