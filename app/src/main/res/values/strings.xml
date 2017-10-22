@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FisicApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_discover">Discover</string>
+    <string name="title_examen">Exam</string>
+
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="conversions_title">Conversions</string>
+</resources>
