@@ -3,33 +3,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_paso_a_paso_ACon"
+            android:icon="@drawable/ic_paso_a_paso_black_24dp"
+            android:title="@string/item_pasoapaso" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_ejercicios_ACon"
+            android:icon="@drawable/ic_ejercicios_black_24dp"
+            android:title="@string/item_ejercicio" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_ejemplos_ACon"
+            android:icon="@drawable/ic_ejemplos_black_24dp"
+            android:title="@string/item_ejemplos" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_saber_mas_ACon"
+            android:icon="@drawable/ic_saber_mas_black_24dp"
+            android:title="@string/item_saber_mas" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/herramientas">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_conversor_ACon"
+                android:icon="@drawable/ic_conversor_black_24dp"
+                android:title="@string/item_tool_conversor" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_contenido_extra_ACon"
+                android:icon="@drawable/ic_contenido_extra_black_24dp"
+                android:title="@string/item_tool_contenido_extra" />
         </menu>
     </item>
 

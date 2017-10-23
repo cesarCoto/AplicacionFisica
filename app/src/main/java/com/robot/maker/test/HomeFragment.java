@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -69,13 +70,17 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-        ImageButton imag = (ImageButton) view.findViewById(R.id.imageButton_conversions);
-        imag.setOnClickListener(new View.OnClickListener() {
+        ImageButton imageButton_conversiones = view.findViewById(R.id.imageButton_conversiones);
+        TextView textView_conversiones = view.findViewById(R.id.textView_conversiones);
+
+        View.OnClickListener onClickListenerConversiones = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 conversiones();
             }
-        });
+        };
+        imageButton_conversiones.setOnClickListener(onClickListenerConversiones);
+        textView_conversiones.setOnClickListener(onClickListenerConversiones);
 
         return  view;
     }

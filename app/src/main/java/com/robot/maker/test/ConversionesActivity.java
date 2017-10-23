@@ -1,5 +1,6 @@
 package com.robot.maker.test;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -76,17 +77,19 @@ public class ConversionesActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_paso_a_paso_ACon) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_ejercicios_ACon) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_ejercicios_ACon) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_saber_mas_ACon) {
+            Intent saberMas = new Intent(this,SaberMasActivity.class);
+            startActivity(saberMas);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_conversor_ACon) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_contenido_extra_ACon) {
 
         }
 

@@ -9,4 +9,6 @@
     <dimen name="dimen_margin_imgbutton">2dp</dimen>
     <dimen name="dimen_padding_text_card">4dp</dimen>
     <dimen name="dimen_padding_activities">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
 </resources>

@@ -22,19 +22,30 @@
         <activity
             android:name=".ConversionesActivity"
             android:label="@string/conversions_title"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity">
+            android:theme="@style/AppTheme.NoActionBar">
+
         </activity>
-
-        <activity android:name=".ExamConversionsActivity"
-            android:screenOrientation="portrait"
+        <activity
+            android:name=".ExamConversionsActivity"
             android:label="@string/title_exam"
-            android:parentActivityName=".MainActivity">
-
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SaberMasActivity"
+            android:label="@string/title_activity_saber_mas"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ConversionesActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ConversionesActivity"/>
+
         </activity>
     </application>
 
