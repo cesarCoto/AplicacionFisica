@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_paso_a_paso_AVec"
+            android:icon="@drawable/ic_paso_a_paso_black_24dp"
+            android:title="@string/item_pasoapaso" />
+        <item
+            android:id="@+id/nav_ejercicios_AVec"
+            android:icon="@drawable/ic_ejercicios_black_24dp"
+            android:title="@string/item_ejercicio" />
+        <item
+            android:id="@+id/nav_ejemplos_AVec"
+            android:icon="@drawable/ic_ejemplos_black_24dp"
+            android:title="@string/item_ejemplos" />
+        <item
+            android:id="@+id/nav_saber_mas_AVec"
+            android:icon="@drawable/ic_saber_mas_black_24dp"
+            android:title="@string/item_saber_mas" />
+    </group>
+
+    <item android:title="@string/herramientas">
+        <menu>
+            <item
+                android:id="@+id/nav_conversor_AVec"
+                android:icon="@drawable/ic_conversor_black_24dp"
+                android:title="@string/item_tool_conversor" />
+            <item
+                android:id="@+id/nav_contenido_extra_AVec"
+                android:icon="@drawable/ic_contenido_extra_black_24dp"
+                android:title="@string/item_tool_contenido_extra" />
+        </menu>
+    </item>
+
+</menu>

@@ -71,7 +71,9 @@ public class HomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         ImageButton imageButton_conversiones = view.findViewById(R.id.imageButton_conversiones);
+        ImageButton imageButton_vectores = view.findViewById(R.id.imageButton_vectores);
         TextView textView_conversiones = view.findViewById(R.id.textView_conversiones);
+        TextView textView_vectores = view.findViewById(R.id.textView_vectores);
 
         View.OnClickListener onClickListenerConversiones = new View.OnClickListener() {
             @Override
@@ -82,12 +84,24 @@ public class HomeFragment extends Fragment {
         imageButton_conversiones.setOnClickListener(onClickListenerConversiones);
         textView_conversiones.setOnClickListener(onClickListenerConversiones);
 
+        View.OnClickListener onClickListenerVectores = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                vectores();
+            }
+        };
+        imageButton_vectores.setOnClickListener(onClickListenerVectores);
+        textView_vectores.setOnClickListener(onClickListenerVectores);
+
         return  view;
     }
-
     private void conversiones(){
-        Intent i = new Intent(getActivity(),ConversionesActivity.class);
-        startActivity(i);
+        Intent i_Con = new Intent(getActivity(),ConversionesActivity.class);
+        startActivity(i_Con);
+    }
+    private void vectores(){
+        Intent i_Vec = new Intent(getActivity(),VectoresActivity.class);
+        startActivity(i_Vec);
     }
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

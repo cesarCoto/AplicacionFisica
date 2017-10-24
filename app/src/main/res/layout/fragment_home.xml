@@ -34,13 +34,14 @@
                     app:srcCompat="@drawable/unidades" />
 
                 <ImageButton
-                    android:id="@+id/imageButton"
+                    android:id="@+id/imageButton_vectores"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
                     android:layout_marginLeft="@dimen/dimen_margin_imgbutton"
-                    android:background="#525252"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_weight="1"
+                    android:background="@color/color_tab_exam_vectores"
+                    app:srcCompat="@drawable/vec_fisicapp"
+                    android:contentDescription="@string/vectors_title" />
 
             </LinearLayout>
 
@@ -62,14 +63,14 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/textView_vectores"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/dimen_margin_imgbutton"
                     android:layout_weight="1"
-                    android:background="#7fffd3"
+                    android:background="@color/color_text_tab_exam_vectores"
                     android:padding="@dimen/dimen_padding_text_card"
-                    android:text="TextView"
+                    android:text="@string/vectors_title"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
             </LinearLayout>

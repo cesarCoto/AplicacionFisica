@@ -8,4 +8,6 @@
     <color name="color_text_tab_exam_conversiones">#2398d7</color>
     <color name="text_color_tab">#000</color>
     <color name="button_calificar">#fff</color>
+    <color name="color_tab_exam_vectores">#b6b6b6</color>
+    <color name="color_text_tab_exam_vectores">#818181</color>
 </resources>

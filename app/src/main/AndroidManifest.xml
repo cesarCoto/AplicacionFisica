@@ -24,9 +24,7 @@
             android:label="@string/conversions_title"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ExamConversionsActivity"
             android:label="@string/title_exam"
@@ -38,13 +36,28 @@
         </activity>
         <activity
             android:name=".SaberMasActivity"
-            android:label="@string/title_activity_saber_mas"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/item_saber_mas"
             android:parentActivityName=".ConversionesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ConversionesActivity" />
+        </activity>
+        <activity
+            android:name=".VectoresActivity"
+            android:label="@string/title_activity_vectores"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".saber_mas_vecActivity"
+            android:label="@string/item_saber_mas"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".VectoresActivity"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ConversionesActivity"/>
+                android:value=".VectoresActivity"/>
 
         </activity>
     </application>
